@@ -11,3 +11,5 @@ export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
 export PATH="$PATH:/usr/local/bin:/opt/local/bin:~/bin"
 #EDITOR
 export EDITOR="vim"
+
+source ${HOME}/.bashrc
