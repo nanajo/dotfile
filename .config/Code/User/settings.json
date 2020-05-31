@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Solarized Light",
+    "editor.fontFamily": "'Ricty', 'Myrica M', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.renderWhitespace": "all",
+    "diffEditor.renderSideBySide": true,
+    "terminal.integrated.shell.linux": "/bin/fish"
+}
