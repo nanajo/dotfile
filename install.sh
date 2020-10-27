@@ -2,7 +2,7 @@
 FULLPATH=$(cd $(dirname ${0});pwd)
 cd $FULLPATH
 
-for NAME in `find . -not -name "install.sh" -not -name "." -not -type d | sed -e "s#./##"`;
+for NAME in `find . -type d -name '.git' -prune -o -type f -a -not -name "install.sh" -print | sed -e "s#./##"`;
 do
     if [ ! -d $(dirname ${HOME}/${NAME}) ]
     then
