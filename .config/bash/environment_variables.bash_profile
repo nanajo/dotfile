@@ -12,3 +12,7 @@ export PATH="$PATH:/usr/local/bin:/opt/local/bin:~/bin"
 
 #EDITOR
 export EDITOR="vim"
+
+#History
+HISTSIZE=20000
+HISTFILESIZE=20000
