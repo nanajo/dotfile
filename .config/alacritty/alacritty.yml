@@ -1,8 +1,8 @@
 # Fonts
 font:
-  size: 16.0
+  size: 12.0
   normal:
-    family: Ricty
+    family: Myrica M
     style: Regular
 
 # Colors (Solarized Light)
@@ -11,6 +11,11 @@ colors:
   primary:
     background: '#fdf6e3' # base3
     foreground: '#657b83' # base00
+
+window:
+  dimensions:
+    columns: 128
+    lines: 40
 
   # Cursor colors
   cursor:
