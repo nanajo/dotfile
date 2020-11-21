@@ -1,6 +1,9 @@
 # .bashrc
 #Load custom config
-source ~/.config/bash/*.bashrc
+for CONF in $(find ~/.config/bash -name *.bashrc);
+do
+	source ${CONF}
+done
 
 #run tmux
 #If the shell is not interactive, do not run tmux
