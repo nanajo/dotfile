@@ -1,0 +1,22 @@
+{
+  IconPath = (
+    "/home/shichijo/GNUstep/Library/Icons",
+    "/home/shichijo/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/shichijo/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Icons",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/pixmaps"
+  );
+  PixmapPath = (
+    "/home/shichijo/GNUstep/Library/WindowMaker/Pixmaps",
+    "/home/shichijo/GNUstep/Library/WindowMaker/Backgrounds",
+    "/home/shichijo/GNUstep/Library/WindowMaker/CachedPixmaps",
+    "~/pixmaps",
+    "/usr/share/WindowMaker/Pixmaps",
+    "/usr/share/WindowMaker/Backgrounds",
+    "/usr/share/pixmaps"
+  );
+  WindowTitleFont = "BIZ UDGothic:slant=0:weight=200:width=100:pixelsize=18";
+  MenuTextFont = "BIZ UDGothic:slant=0:weight=80:width=100:pixelsize=20";
+}
