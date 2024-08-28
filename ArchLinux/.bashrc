@@ -17,11 +17,9 @@ done
 sshagent_count=$(ps aux|grep ssh-agent|grep -v grep| wc -l)
 case "$sshagent_count" in
 	0) 
-		#exec ssh-agent tmux
-		[[ -z "$TMUX" ]] && ssh-agent tmux
+		[[ -z "$TMUX" ]] && exec ssh-agent tmux
 		;;
 	*)
-		#exec tmux
-		[[ -z "$TMUX" ]] && tmux
+		[[ -z "$TMUX" ]] && exec tmux
 		;;
 esac
