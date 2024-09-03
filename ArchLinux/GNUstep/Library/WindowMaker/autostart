@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #
 # Place applications to be executed when WindowMaker is started here.
 # This should only be used for non-X applications or applications that
@@ -14,14 +14,17 @@
 #
 # This file must be executable.
 #
-xrandr --output Virtual-1 --mode "3840x2160" &
+#xrandr --output Virtual-1 --mode "3840x2160" &
+#xrandr --output Virtual-1 --mode "3840x2160" &
 #xrandr --output Virtual-1 --mode "1920x1080" &
+wmdocker -wmaker &
+#sleep 5
 fcitx5 -d &
 spice-vdagent &
 xsettingsd &
 dropbox start &
-sleep 2
+volumeicon &
+#sleep 2
 xclock -digital -geometry 300x35-0+0 -strftime "%Y-%m-%d (%a) %H:%M:%S" -update 1 -face "UDEV Gothic:size=16" &
-wmdocker -wmaker &
 xmodmap ~/.Xmodmap &
 
