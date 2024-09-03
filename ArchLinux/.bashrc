@@ -1,6 +1,6 @@
 # .bashrc
 #Load custom config
-for CONF in $(find ~/.config/bash -name *.bashrc);
+for CONF in $(find ~/.config/bash/ -name *.bashrc);
 do
 	source ${CONF}
 done
