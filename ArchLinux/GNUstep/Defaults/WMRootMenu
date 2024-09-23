@@ -2,7 +2,7 @@
   "Window Maker",
   (Firefox, EXEC, firefox),
   ("Terminal", EXEC, alacritty),
-  ("Visual Studio Code", EXEC, code),
+  ("Visual Studio Code", EXEC, "code --password-store=gnome-libsecret"),
   ("Virtual Machine Manager", EXEC, "virt-manager"),
   (Run..., SHEXEC, "%A(Run, Type command:)"),
   (
