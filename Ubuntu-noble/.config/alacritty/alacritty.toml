@@ -1,0 +1,6 @@
+[general]
+import = [
+	"~/.config/alacritty/font.toml",
+	"~/.config/alacritty/window.toml",
+	"~/.config/alacritty/solarized_light.toml"
+]
