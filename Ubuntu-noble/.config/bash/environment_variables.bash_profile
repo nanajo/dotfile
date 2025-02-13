@@ -8,7 +8,7 @@ export LESS="-RN"
 export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
 
 #PATH
-export PATH="$PATH:/usr/local/bin:/opt/local/bin:~/.local/bin"
+export PATH="$PATH:/usr/local/bin:/opt/local/bin:~/.cargo/bin:~/.local/bin"
 
 #EDITOR
 export EDITOR="vim"
