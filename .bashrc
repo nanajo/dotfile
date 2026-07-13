@@ -13,13 +13,4 @@ done
 #Ignore vscode
 [[ ${TERM_PROGRAM} == "vscode" ]] && return
 #If the shell is not on tmux, run tmux with ssh-agent
-#[[ -z "$TMUX" ]] && exec ssh-agent tmux
-sshagent_count=$(ps aux|grep ssh-agent|grep -v grep| wc -l)
-case "$sshagent_count" in
-	0) 
-		[[ -z "$TMUX" ]] && exec ssh-agent tmux
-		;;
-	*)
-		[[ -z "$TMUX" ]] && exec tmux
-		;;
-esac
+[[ -z "$TMUX" ]] && exec ssh-agent tmux
