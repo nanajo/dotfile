@@ -7,3 +7,4 @@ do
 done
 
 source ${HOME}/.bashrc
+. "$HOME/.cargo/env"

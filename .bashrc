@@ -13,4 +13,6 @@ done
 #Ignore vscode
 [[ ${TERM_PROGRAM} == "vscode" ]] && return
 #If the shell is not on tmux, run tmux with ssh-agent
-[[ -z "$TMUX" ]] && exec ssh-agent tmux
+#[[ -z "$TMUX" ]] && exec ssh-agent tmux
+[[ -z "$TMUX" ]] && exec tmux
+. "$HOME/.cargo/env"
